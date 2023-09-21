@@ -33,11 +33,13 @@ Além de criar é necessário deixá-lo ativado para a instalação das bibliote
 
 Para ativar o ambiente virtual, faça o  seguinte:
     No Windows:
+    
     ```
         > .\venv\Scripts\activate
     ```
-
+    
     No Linux:
+    
     ```
         > source venv/bin/activate
     ```
