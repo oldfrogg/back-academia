@@ -32,13 +32,14 @@ Para criar um ambiente virtual é necessário navegar no terminal até o diretó
 Além de criar é necessário deixá-lo ativado para a instalação das bibliotecas e execução da aplicação.
 
 Para ativar o ambiente virtual, faça o  seguinte:
-    No Windows:
+
+No Windows:
     
     ```
         > .\venv\Scripts\activate
     ```
     
-    No Linux:
+No Linux:
     
     ```
         > source venv/bin/activate
@@ -71,9 +72,9 @@ Por fim, para executar a aplicação, basta executar o flask da seguinte forma:
 ```
 
 Com isso a aplicação ficará ativa em um servidor local. Você poderá acessá-lo através do navegador utilizando:
-    http://localhost:5000
+    <http://localhost:5000>
 ou:
-    http://127.0.0.1:5000/
+    <http://127.0.0.1:5000/>
 
 Você terá 3 escolhas de documentação, mas é recomendável a utilização do Swagger.
 
