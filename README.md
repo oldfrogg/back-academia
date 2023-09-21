@@ -1,13 +1,15 @@
 # API Academia PUC
 
+
 ## Objetivos
 
-A aplicação tem como objetivo fazer o controle de cadastro dos alunos da Academia da PUC. Os principais objetivo são cadastrar o aluno e verificar/atualizar a validade do seu plano.
+A aplicação tem como objetivo fazer o controle de cadastro dos alunos da Academia da PUC.
+Isso engoba a criação e atualização dos dados do aluno, a verificação/atualização da validade do seu plano e a opção de excluir seu cadastro.
 
 
 ## Rotas
 
-* / - Página inicial - Escolha da documentação.
+* / - GET - Página inicial - Escolha da documentação.
 * /add_aluno - POST - Cadastra um novo aluno.
 * /get_alunos - GET - Lista todos os alunos.
 * /get_aluno - GET - Filtra um aluno através do seu CPF.
